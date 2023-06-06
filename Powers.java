@@ -8,6 +8,7 @@ public class Powers {
         int result = power(number1, number2); //method call with parameters
         System.out.println(number1 +" Power "+number2+" is: "+result);
     }
+
     static int power(int num1, int num2){ //method to calculate powers
         int result = 1;
         for(int i = 0; i <= num1; i++) result *= num1;
