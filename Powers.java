@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PowerCalculator {
+public class Powers {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in); //Scanner object to receive input from user
         System.out.println("Enter numbers one in each line.");
