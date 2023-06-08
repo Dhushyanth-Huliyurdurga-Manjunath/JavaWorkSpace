@@ -6,7 +6,6 @@ public class ObjectOrientedProgrammingCodeOne {
     public static void main(String[] args){
         ObjectOrientedProgrammingCodeOne obj = new ObjectOrientedProgrammingCodeOne(); /*creates an object for the
         specified class */
-
         //using the object 'obj' to access the properties of the class
         System.out.println("Displaying class properties using its object,");
         System.out.println("Name of the fruit: "+obj.fruitName);
