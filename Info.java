@@ -6,6 +6,6 @@ abstract class Info{
 
 class SupplyInfo extends Info {
     public void practiceRequired(){
-        System.out.println("I got into my Dream company " + obj.myDreamCompany + " in the year " + obj.yearOfJoining);
+        System.out.println("I got into my Dream company " + myDreamCompany + " in the year " + yearOfJoining);
     }
 }

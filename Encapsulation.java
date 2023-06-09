@@ -5,7 +5,9 @@ public class Encapsulation extends Info{
         System.out.println("Happy!");
     }
     public static void main(String[] args){
-        Encapsulation obj2 = new Encapsulation();
+        Encapsulation obj1 = new Encapsulation();
+        SupplyInfo obj2 = new SupplyInfo();
         obj2.practiceRequired();
+        obj1.practiceRequired();
     }
 }
