@@ -19,7 +19,6 @@ public class ArrayListCities{
         for(String i: city){ //for each loop to iterate through the loop
             System.out.println(i); 
         }
-
         System.out.println("\nArray List after using \".clear\"");
         city.clear();
         System.out.println(city);
