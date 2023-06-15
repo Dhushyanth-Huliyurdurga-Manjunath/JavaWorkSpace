@@ -12,8 +12,12 @@ class City{
     }
 }
 
-public class ChainConstructors{
+public class ChainConstructors extends City{
+    ChainConstructors(String name, String areaCode){
+        super(name, areaCode);
+        System.out.println("End-of-Code");
+    }
     public static void main(String[] args){
-        new City("Arlington", "817");
+        new ChainConstructors("Arlington", "817");
     }
 }
