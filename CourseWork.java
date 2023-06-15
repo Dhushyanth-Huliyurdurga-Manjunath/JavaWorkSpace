@@ -10,7 +10,7 @@ public class CourseWork {
     }
 
     public static void main(String[] args){
-        CourseWork objOne = new CourseWork("DSA", "OOP"); //Call to constructor 1 with parameters of type String
-        CourseWork ObjTwo = new CourseWork(3, 3); //Call to constructor 2 with integer parameters
+        new CourseWork("DSA", "OOP"); //Call to constructor 1 with parameters of type String
+        new CourseWork(3, 3); //Call to constructor 2 with integer parameters
     }
 }
