@@ -6,6 +6,7 @@ class SuperClass{ //Superclass
         System.out.print("Hello, ");
     }
 }
+
 public class Inheritance extends SuperClass{ //subclass inheriting 'SuperClass'
     public static void main(String[] args){
         Inheritance obj = new Inheritance(); //object of subclass
