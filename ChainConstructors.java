@@ -11,7 +11,6 @@ class City{
         System.out.println("Chain Constructors example.");
     }
 }
-
 public class ChainConstructors extends City{ //Inheritance from class "City"
     static ChainConstructors instance = null;
     public int a = 0;
